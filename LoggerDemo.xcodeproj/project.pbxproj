@@ -14,6 +14,7 @@
 		133DB39E2091B6C300692579 /* YMBaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 133DB3932091B6C300692579 /* YMBaseLogger.m */; };
 		133DB39F2091B6C300692579 /* NSURLRequest+YMNetworkingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 133DB3952091B6C300692579 /* NSURLRequest+YMNetworkingTime.m */; };
 		133DB3A02091B6C300692579 /* YMBaseLogger+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 133DB3982091B6C300692579 /* YMBaseLogger+Networking.m */; };
+		133DB3A22091BCDF00692579 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 133DB3A12091BCDF00692579 /* README.md */; };
 		13B43BD020916988007B7AA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B43BCF20916988007B7AA7 /* AppDelegate.m */; };
 		13B43BD320916988007B7AA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B43BD220916988007B7AA7 /* ViewController.m */; };
 		13B43BD620916988007B7AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B43BD420916988007B7AA7 /* Main.storyboard */; };
@@ -84,6 +85,7 @@
 		133DB3972091B6C300692579 /* NSURLRequest+YMNetworkingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+YMNetworkingTime.h"; sourceTree = "<group>"; };
 		133DB3982091B6C300692579 /* YMBaseLogger+Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YMBaseLogger+Networking.m"; sourceTree = "<group>"; };
 		133DB3992091B6C300692579 /* YMBaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMBaseLogger.h; sourceTree = "<group>"; };
+		133DB3A12091BCDF00692579 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		13B43BCB20916988007B7AA7 /* LoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B43BCE20916988007B7AA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13B43BCF20916988007B7AA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 		13B43BC220916988007B7AA7 = {
 			isa = PBXGroup;
 			children = (
+				133DB3A12091BCDF00692579 /* README.md */,
 				13B43BCD20916988007B7AA7 /* LoggerDemo */,
 				13B43BE620916989007B7AA7 /* LoggerDemoTests */,
 				13B43BF120916989007B7AA7 /* LoggerDemoUITests */,
@@ -511,6 +514,7 @@
 			files = (
 				13B43BDB20916989007B7AA7 /* LaunchScreen.storyboard in Resources */,
 				13B43BD820916989007B7AA7 /* Assets.xcassets in Resources */,
+				133DB3A22091BCDF00692579 /* README.md in Resources */,
 				13B43BD620916988007B7AA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
